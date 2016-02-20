@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Calculadora binaria</title>
+    <link rel="stylesheet" type="text/css" href="calc_binary.css">
+    <script src="calc_binary.js" language="javascript" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <p> <u>Calculadora binaria:</u></p>
+
+    <div class="calculadora">
+      <p id="textoPantalla">0</p>
+      <p>
+        <input type="button" value="0" onclick="numero('0')"/>
+        <input type="button" value="1" onclick="numero('1')"/>
+        <input type="button" value="+" onclick="operar('+')"/>
+        <input type="button" value="=" onclick="igualar()"/>
+      </p>
+      <p>
+        <input type="button" class="largo" value="RESET" onclick="reset()"/>
+      </p>
+
+    </div>
+  </body>
+</html>
